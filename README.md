@@ -18,7 +18,11 @@ Voice_AI_Agent/
 
 ---
 
+<<<<<<< HEAD
 ## Prerequisites
+=======
+## 📋 Prerequisites
+>>>>>>> d05cfc96009fd403728863d9fda21685cf73fcf1
 
 - **Python**: Version 3.10, 3.11, 3.12, or 3.13 installed.
 - **Operating System**: Windows (tested and optimized for Windows PowerShell / Command Prompt).
@@ -26,7 +30,11 @@ Voice_AI_Agent/
 
 ---
 
+<<<<<<< HEAD
 ## Quick Start Guide (Windows)
+=======
+## 🚀 Quick Start Guide (Windows)
+>>>>>>> d05cfc96009fd403728863d9fda21685cf73fcf1
 
 ### 1. Open the Project Folder in VS Code
 Open VS Code, press `File > Open Folder...`, and select the `Voice_AI_Agent` directory:
@@ -79,7 +87,11 @@ The server will start at `http://127.0.0.1:8000`.
 
 ---
 
+<<<<<<< HEAD
 ## Available Endpoints
+=======
+## 🌐 Available Endpoints
+>>>>>>> d05cfc96009fd403728863d9fda21685cf73fcf1
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
@@ -90,7 +102,11 @@ The server will start at `http://127.0.0.1:8000`.
 
 ---
 
+<<<<<<< HEAD
 ##  VS Code Integration Tips
+=======
+## 🛠️ VS Code Integration Tips
+>>>>>>> d05cfc96009fd403728863d9fda21685cf73fcf1
 
 1. **Select Python Interpreter**:
    - Press `Ctrl + Shift + P` in VS Code.

@@ -46,6 +46,7 @@ async def health_check():
     }
 
 
+<<<<<<< HEAD
 @app.get("/leads")
 def get_leads():
     df = load_leads()
@@ -58,6 +59,8 @@ def get_leads():
         )
     }
 
+=======
+>>>>>>> d05cfc96009fd403728863d9fda21685cf73fcf1
 if __name__ == "__main__":
     import uvicorn
 
