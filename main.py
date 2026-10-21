@@ -5,6 +5,7 @@ FastAPI application providing health checks, welcome endpoint, and interactive d
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from lead_service import load_leads
 
 # Initialize FastAPI application with informative metadata
 app = FastAPI(
@@ -44,6 +45,18 @@ async def health_check():
         "service": "voice-ai-agent-backend",
     }
 
+
+@app.get("/leads")
+def get_leads():
+    df = load_leads()
+
+    return {
+        "total_leads": len(df),
+        "columns": df.columns.tolist(),
+        "sample": df.head(3).fillna("").to_dict(
+            orient="records"
+        )
+    }
 
 if __name__ == "__main__":
     import uvicorn

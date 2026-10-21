@@ -26,3 +26,6 @@ dist/
 
 # Logs
 *.log
+
+# Keep local lead/customer data out of GitHub
+data/
